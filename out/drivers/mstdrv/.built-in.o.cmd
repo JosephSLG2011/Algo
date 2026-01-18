@@ -1,1 +1,0 @@
-cmd_drivers/mstdrv/built-in.o :=   rm -f drivers/mstdrv/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/mstdrv/built-in.o drivers/mstdrv/mstdrv.o ; scripts/mod/modpost drivers/mstdrv/built-in.o

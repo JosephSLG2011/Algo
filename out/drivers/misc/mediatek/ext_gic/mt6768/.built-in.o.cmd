@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/ext_gic/mt6768/built-in.o :=   rm -f drivers/misc/mediatek/ext_gic/mt6768/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ext_gic/mt6768/built-in.o drivers/misc/mediatek/ext_gic/mt6768/plat_sw_mode.o ; scripts/mod/modpost drivers/misc/mediatek/ext_gic/mt6768/built-in.o

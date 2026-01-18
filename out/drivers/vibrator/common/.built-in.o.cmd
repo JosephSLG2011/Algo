@@ -1,1 +1,0 @@
-cmd_drivers/vibrator/common/built-in.o :=   rm -f drivers/vibrator/common/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/vibrator/common/built-in.o drivers/vibrator/common/sec_vibrator.o ; scripts/mod/modpost drivers/vibrator/common/built-in.o
