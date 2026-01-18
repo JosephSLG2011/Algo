@@ -5,6 +5,7 @@ you can explore branches:
 * vampire
 * moonlight
 * luminol
+* helium
 ```
 
 how to build? let's go to [our wiki](https://github.com/valerynx/wiki)!
