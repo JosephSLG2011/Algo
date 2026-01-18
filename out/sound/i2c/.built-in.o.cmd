@@ -1,1 +1,0 @@
-cmd_sound/i2c/built-in.o :=   rm -f sound/i2c/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD sound/i2c/built-in.o sound/i2c/other/built-in.o ; scripts/mod/modpost sound/i2c/built-in.o

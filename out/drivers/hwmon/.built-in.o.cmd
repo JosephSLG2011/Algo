@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/built-in.o :=   rm -f drivers/hwmon/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/hwmon/built-in.o drivers/hwmon/hwmon.o ; scripts/mod/modpost drivers/hwmon/built-in.o

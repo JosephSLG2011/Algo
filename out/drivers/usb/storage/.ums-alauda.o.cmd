@@ -1,1 +1,0 @@
-cmd_drivers/usb/storage/ums-alauda.o :=  rm -f drivers/usb/storage/ums-alauda.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/usb/storage/ums-alauda.o drivers/usb/storage/alauda.o 

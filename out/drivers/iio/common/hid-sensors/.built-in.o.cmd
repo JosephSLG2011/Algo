@@ -1,1 +1,0 @@
-cmd_drivers/iio/common/hid-sensors/built-in.o :=  rm -f drivers/iio/common/hid-sensors/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/iio/common/hid-sensors/built-in.o

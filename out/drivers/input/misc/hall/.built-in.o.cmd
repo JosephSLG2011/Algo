@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/hall/built-in.o :=   rm -f drivers/input/misc/hall/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/input/misc/hall/built-in.o drivers/input/misc/hall/hall_ic.o ; scripts/mod/modpost drivers/input/misc/hall/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/extcon/built-in.o :=   rm -f drivers/extcon/built-in.o; /home/luminous418/zyc-clang/bin/aarch64-linux-gnu-ar rcSTPD drivers/extcon/built-in.o drivers/extcon/extcon-core.o ; scripts/mod/modpost drivers/extcon/built-in.o
