@@ -20,7 +20,7 @@
 
 - **Step 1: Clone this repository.**
 ```
-git clone --depth=1 https://github.com/Moonlight-kernel
+git clone --depth=1 https://github.com/valerynx/kernel -b yuki
 ```
 
 + **Step 1.1: (Optional) Configure extra version name of kernel.**
@@ -52,7 +52,7 @@ git clone https://github.com/EmanuelCN/zyc_clang-14
 
 - **Optional: Add KernelSU variant.**
 > [!TIP]
-> All of KernelSU variant setup script please go to [```guide/KernelSUSetup.md```](https://github.com/m0onl1ghtt/Moonlight-kernel/blob/main/guide/KernelSUSetup.md)
+> All of KernelSU variant setup script please go to [```guide/KernelSUSetup.md```](guide/KernelSUSetup.md)
 
 1. Run script (If you want to be sure, please run the script twice.)
 
@@ -61,12 +61,12 @@ git clone https://github.com/EmanuelCN/zyc_clang-14
 ```
 # KernelSU
 - If you use Kprobes hook for your kernel, please edit defconfig to a32_k+e_defconfig.
-- If you use manual hook for your kernel. please edit defconfig to a32_manual_ksu_defconfig.
+- If you use manual hook for your kernel. please edit defconfig to a32_manual_ksu_defconfig or keep a32_k+e_defconfig.
 # Non-KernelSU
 - Please edit defconfig to a32_noksu_defconfig.
 ```
 
 - **Step 4: Build.**
 ```
-bash build_kernel.sh
+bash build.sh
 ```
