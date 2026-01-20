@@ -38,3 +38,8 @@ curl -LSs "https://raw.githubusercontent.com/KOWX712/KernelSU/kernel/setup.sh" |
 ```
 find it your self sir
 ```
+
+### YukiSU (bettar than SukiSU Ultra)
+```
+curl -LSs "https://raw.githubusercontent.com/Anatdx/YukiSU/main/kernel/setup.sh" | bash -s main
+```
