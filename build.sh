@@ -37,15 +37,12 @@ export CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 header() {
     clear
     echo -e "${CYAN}${BOLD}"
-    echo '                 _              '
-    echo ' _   __   ____ _   ____ ___     ____      (_)  _____   ___   '
-    echo ' | | / /  / __ `/  / __ `__ \   / __ \   / /  / ___/  / _ \ '
-    echo ' | |/ /  / /_/ /  / / / / / /  / /_/ /  / /  / /      /  __/ '
-    echo ' |___/   \__,_/  /_/ /_/ /_/  / .___/  /_/  /_/       \___/  '
-    echo '                             /_/                             '
+    echo "yuki kernel"
+    echo "made by nc4tt @ github | owner of valeryn at 27:00pm organization"
+    echo "have a nice day!"
     echo -e "${NC}"
     echo -e "${YELLOW}user:${NC} $USER_NAME"
-    echo -e "${YELLOW}kernel:${NC} vampire"
+    echo -e "${YELLOW}kernel:${NC} yuki"
     echo -e "${YELLOW}config:${NC} $defconfig"
     echo -e "${BLUE}--------------------------------------------${NC}"
 }
