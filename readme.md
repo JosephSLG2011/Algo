@@ -6,6 +6,7 @@ you can explore branches:
 * moonlight
 * luminol
 * helium
+* yuki (WIP)
 ```
 
 how to build? let's go to [our wiki](https://github.com/valerynx/wiki)!
